@@ -180,5 +180,34 @@ color:hsl(39, 100%, 56%);}
 a:hover,
 a:active {background-image: linear-gradient(to bottom right,
   hsla(252, 100%, 67%, 0.95),
-  hsla(241, 81%, 54%, 1));}
-
+  hsla(241, 81%, 54%, 1));
+}
+  @media (min-width:650px) {
+    body{
+      background-color: white;
+    }
+  
+    .result__summary-component {
+      flex-direction:row;
+      max-width: 450px;
+      border-radius: 12px;
+      box-shadow: 5px 10px 10px hsla(241, 100%, 89%, 0.678);
+      }
+  
+    .result__summary-main {
+        width: 50%;}
+  
+    .result__summary-sidebar{
+        width: 50%;
+        border-radius: 12px;}
+  
+    .result__score{
+       padding: .5rem;
+       margin-bottom: .6rem;
+       font-size: .68rem; 
+    }    
+    .btn{
+      padding: .5rem;
+      font-size: .75rem;
+    }
+    }
